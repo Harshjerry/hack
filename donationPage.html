@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <link rel="stylesheet" href="donationPage.css">
+</head>
+<body>
+    <div class="donation-container">
+        <h1>Make a Donation</h1>
+        <div class="donation-options">
+            <label for="donation-amount">Select an Amount:</label>
+            <select id="donation-amount">
+                <option value="10">$10</option>
+                <option value="20">$20</option>
+                <option value="50">$50</option>
+                <option value="100">$100</option>
+                <option value="custom">Custom Amount</option>
+            </select>
+            <div class="custom-amount">
+                <label for="custom-amount">Custom Amount:</label>
+                <input type="number" id="custom-amount" placeholder="Enter amount" min="1">
+            </div>
+        </div>
+        <button id="donate-button">Donate</button>
+        <div id="confirmation-message" class="hidden">
+            Thank you for your donation!
+        </div>
+    </div>
+    <script src="donationPage.js"></script>
+</body>
+</html>

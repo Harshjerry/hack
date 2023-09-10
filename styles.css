@@ -1,0 +1,435 @@
+
+
+.front{
+  width:1460px;
+  height: 700px;
+  background-image: url('frontpage.png');
+}
+
+/* Navbar */
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    align-items:center;
+    background-color: black;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    padding-left:100px;
+    padding-right: 100px;
+
+}
+
+/* Style the brand name */
+.brand {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+/* Style the navigation items */
+.nav-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap:50px;
+}
+
+.nav-items li {
+    margin-right: 30px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-items a:hover {
+    color: #f0f0f0; /* Change color on hover */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .brand {
+        margin-bottom: 10px;
+    }
+
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .nav-items li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+.button{
+  background-color: white;
+  color:black;
+  border-radius: 30px;
+  position: relative;
+  height: 35px;
+  width: 180px;
+  top:500px;
+  left:1000px;
+  font-weight: 700;
+}
+
+
+.page1{
+  height: 700px;
+  width: 1460px;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 30px;
+}
+.page1 h1{
+  font-family: fantasy;
+  /* font-weight: bold; */
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top:35px;
+  margin-bottom: 0px;
+letter-spacing: 2px;
+}
+.page1 h3{
+  font-family: Montserrat;
+  color: white;
+  text-align: center;
+  color:#7F84F8;
+margin-top:5px;}
+
+.page1 button{
+  background-color: red;
+  color: white;
+  width:200px;
+  font-family: Montserrat;
+  font-weight: bold;
+height:32px;
+border-radius: 30px;
+position: relative;
+top:50px;
+left:150px;
+
+}
+.page1 button:hover{
+  transform: scale('1.1');
+}
+
+#locationResult {
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: Montserrat;
+  color: white;
+  top:150px;
+  left:60px;
+  position: relative;
+}
+
+#locationToGo{
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: Montserrat;
+  color: white;
+  top:150px;
+  left:60px;
+  position: relative;
+}
+.weather-info{
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: Montserrat;
+  color: white;
+  top:150px;
+  left:60px;
+  position: relative;
+}
+
+.warning{
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: Montserrat;
+  color: white;
+  top:150px;
+  left:60px;
+  position: relative;
+
+}
+.page1 .white{
+  background-image: url('page1img2.png');
+}
+.white{
+  height:600px;width:90vw;border:2px solid white;border-radius:10px;
+  margin-top: 10px;
+}
+
+
+
+.page2 .white{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.page2{
+  height: 700px;
+  width:1460px;
+    display:flex;
+    justify-content: center;
+  margin-top: 30px;
+  /* background-color: #6C71FB; */
+}
+
+
+.page3{
+justify-content: center;
+align-items: center;
+display: flex;
+height:1200px;
+width: 1460px;
+}
+ .h31{
+  font-family: fantasy;
+letter-spacing: 2px;
+  color: white;
+  text-align: center;
+}
+
+.white p{
+  color: white;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+
+.white1{
+  height:1100px;width:1100px;
+}
+
+.feature:hover{
+  transform: scale(1.1);
+}
+
+.container{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.page4{
+  margin-top: 100px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  background-color:black;
+  height: 90vh;
+  width: 90vw;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  width: auto;
+  border-right: 1px solid #fff;
+}
+
+.mid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  width: 50vw;
+  border-right: 1px solid #fff;
+  overflow: hidden;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  width: auto;
+}
+
+
+.logo{
+  height: 180px;
+  width: 200px;
+}
+
+ul{
+  list-style: none;
+}
+
+ul>li{
+  margin: 20px 0;
+  margin-right: 20px;
+  padding: 0;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+li:hover{
+  background-color: #272938;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+  margin: 20px;
+}
+
+.card1{
+  overflow: hidden;
+  height: 100px;
+  width: 150px;
+  background: #FFAFB1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card2{
+  height: 100px;
+  width: 150px;
+  background: #C7D7FF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card3{
+  height: 100px;
+  width: 150px;
+  background: #EFF790;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.child1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+
+#chartContainer2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.signup{
+  height:100vh;
+  width:100vw;
+  background-color:black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+/* background-color: #4E61AB; */
+}
+
+.signup-page{
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+  margin-top: 0px;
+  width:500px;
+  height:610px;
+  border:2px solid white;
+  border-radius:30px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+
+.signup-page  input{
+  width:240px;
+  height:30px;
+  margin-top: 10px;
+}
+.btn{
+height:30px;width:248px; margin-top:10px;background-color:#38467B;border-radius: 5px; color: white;
+}
+
+.btn:hover{
+  background-color:#495BA4;
+  color: white;
+}
